@@ -31,8 +31,11 @@ include ("includes/pageheader.php");
 				<p>Web Development Workshop</p>
 				<p>March 6th</p>
 				<hr>
-				<p>Gil Weber, VP Enterprise Data, M&amp;T</p>
+				<p>Ruth Huoh, Business &amp Planning Analyst, M&amp;T</p>
 				<p>March 27th</p>
+				<hr>
+				<p>Chris Hart-Nova, EscapeWire Solutions</p>
+				<p>April 10th</p>
 				<hr>
 				<p>Other Upcoming Events</p>
 				<p>Lastron with Professor Murray</p>
@@ -46,7 +49,7 @@ include ("includes/pageheader.php");
 			<div class="col-md-2 col-md-offset-2 text-center">
 
 			<br>
-			<p>RSVP for M&amp;T Speaker Session, March 27th</p>
+			<p>RSVP for EscapeWire Solutions Speaker Session, April 10th</p>
 				<form class="form-horizontal" method="get" action="rsvp.php" enctype="text/plain">		    
 		            <div class="form-group">
 		               <input  name="studentname" type="text" placeholder="Your Full Name" class="form-control" />

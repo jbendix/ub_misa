@@ -16,7 +16,7 @@
       </div>
         </div>
         <div class="bottom-footer">
-      <div class="col-md-5">&copy; Copyright 2015 &nbsp;&nbsp;v1.1<br>Developed and Designed By: Jordan Bendix </div><br>
+      <div class="col-md-5">&copy; Copyright 2015<br>Developed and Designed By: Jordan Bendix </div><br>
              <div class="col-md-7">
             <!--
             <ul class="footer-nav">
@@ -28,7 +28,7 @@
             <li><a href="contact.php">Contact Us</a></li>
             </ul> -->
 
-            <a href="https://github.com/jbendix/CURRENTSITE" target="_blank"><i class="fa fa-github-square fa-2x icon-cog pull-right"></i></a>
+            <a href="https://github.com/jbendix/ub_misa" target="_blank"><i class="fa fa-github-square fa-2x icon-cog pull-right"></i></a>
             <a href="https://www.linkedin.com/groups?gid=7476400&mostPopular=&trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1425426572088%2Ctas%3Aub+management+infor" target="_blank"><i class="fa fa-linkedin-square fa-2x pull-right icon-cog"></i></a>
             <a href="https://www.facebook.com/misa.sunybuffalo?ref=br_tf" target="_blank"><i class="fa fa-facebook-square fa-2x pull-right icon-cog"></i></a>
             

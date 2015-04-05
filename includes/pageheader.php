@@ -24,19 +24,17 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
             <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Members<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Members</a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="members.php">Executive Board</a></li>
-            <li><a href="#">Active Members*</a></li>
-            <li><a href="#">Website Contributors*</a></li>
             <li class="divider"></li>
             <li><a href="#">Speakers*</a></li>
             <li><a href="#">Alumni*</a></li>
           </ul>
         </li>
-                <li><a href="gallery.php">Gallery</a></li>
+                <!-- <li><a href="gallery.php">Gallery</a></li> -->
                 <li><a href="calendar.php">Upcoming Events</a></li>
-                <li><a href="mismajor.php">MIS Major</a></li>
+                <li><a href="mismajor.php">About MIS</a></li>
                 <li><a href="links.php">Links</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>

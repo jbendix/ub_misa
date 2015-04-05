@@ -136,7 +136,7 @@ include ("includes/pageheader.php");
                     <tbody>
                       <tr>
                         <td rowspan="5" width="150px">
-                          <img class="img-thumbnail" src="Pictures/DavidMurray.jpg" alt="Professor Murray">
+                          <img class="img-thumbnail" src="Pictures/DavidMurray.jpeg" alt="Professor Murray">
                         </td>
 
                       <td>
