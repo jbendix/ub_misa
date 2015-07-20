@@ -1,7 +1,7 @@
 <?php
 
 $to = "misa.sunybuffalo@gmail.com";
-$subject = "RSVP Web Dev";
+$subject = "RSVP";
 $studentname = $_GET['studentname'];
 $ubemail = $_GET['ubemail'];
 $body = "Name: $studentname\n"; 

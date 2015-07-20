@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/sandstone/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   </head>
 
-<body style="padding:15px;">
+<body>
 
 <?php 
 include ("includes/pageheader.php");
@@ -37,11 +37,12 @@ include ("includes/pageheader.php");
 				<p>Chris Hart-Nova, EscapeWire Solutions</p>
 				<p>April 10th</p>
 				<hr>
-				<p>Other Upcoming Events</p>
-				<p>Lastron with Professor Murray</p>
-				<p>Sky Zone</p>
-				<br>
-
+				<p>Lasertron</p>
+				<p>April 15th, 7PM</p>
+				<hr>
+				<p>Web Development Workshop: Bootstrap</p>
+				<p>April 17th</p>
+				<hr>
 			</div>
 
 			<!-- This is the aside section -->
@@ -49,7 +50,7 @@ include ("includes/pageheader.php");
 			<div class="col-md-2 col-md-offset-2 text-center">
 
 			<br>
-			<p>RSVP for EscapeWire Solutions Speaker Session, April 10th</p>
+			<p>RSVP for Bootstrap Workshop, April 17th</p>
 				<form class="form-horizontal" method="get" action="rsvp.php" enctype="text/plain">		    
 		            <div class="form-group">
 		               <input  name="studentname" type="text" placeholder="Your Full Name" class="form-control" />

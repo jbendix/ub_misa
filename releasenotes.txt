@@ -1,0 +1,13 @@
+Release Notes
+
+v1.0 Released November 19th, 2014
+	-initial release
+
+v1.1 Bug Fixes, UI improvements
+	- bug: dropdown-menu, fixed
+	- contact form UI improvement 
+
+v1.2 Bug Fixes, Updated Gallery
+	-bug: active tabs not working properly
+	-new photos
+	    

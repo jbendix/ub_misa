@@ -6,17 +6,44 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/sandstone/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   </head>
 
-<body style="padding:15px;">
+<body>
 
 <?php 
 include ("includes/pageheader.php");
  ?>
+<div class="container">
 
-<div class="row">
+<h2 class="text-center">Executive Board</h2>
+<hr>
+
+<div class="container">
+<img class="img-responsive pull-left" src="Pictures/jordanpic.jpg" height="250" width="250">
+<p class="lead">President</p>
+<p>MS MIS</p>
+</div>
+
+<hr>
+
+<div class="container">
+<img class="img-responsive pull-left" src="Pictures/alyssa.jpg" height="250" width="250">
+<p class="lead">Vice President Administration</p>
+<p>BS Business - Concentraion MIS</p>
+</div>
+<hr>
+
+<div class="container">
+<img class="img-responsive pull-left" src="Pictures/Christina.jpg" height="250" width="250">
+<p class="lead">Vice President Marketing</p>
+<p>BS Business - Concentraion Marketing</p>
+</div>
+<hr>
+
+</div> <!-- END Container -->
+<!-- <div class="row">
 <div class="col-md-6 col-md-offset-3">
 
             <h2 class="text-center">Executive-Board</h2>
@@ -37,7 +64,7 @@ include ("includes/pageheader.php");
                      </table>
                          <br><br>
 
-            		<!-- Next -->
+            		<! Next 
 
                          <table class="table table-bordered">
                     <tbody>
@@ -56,7 +83,7 @@ include ("includes/pageheader.php");
                      </table>
                          <br><br>  
 
-            <!-- NEXT -->
+            <!N EXT
 
             <table class="table table-bordered">
                     <tbody>
@@ -74,7 +101,7 @@ include ("includes/pageheader.php");
                      </table>
                          <br><br>
 
-                         <!-- NEXT -->
+                         < NEXT 
 
             <table class="table table-bordered">
                     <tbody>
@@ -93,7 +120,7 @@ include ("includes/pageheader.php");
                      </table>
                          <br><br>
 
-                       <!-- NEXT -->
+                       <! NEXT 
 
             <table class="table table-bordered">
                     <tbody>
@@ -113,7 +140,7 @@ include ("includes/pageheader.php");
                          <br><br>
                 <div>
 
-            <!-- NEXT -->
+            NEXT 
                   <table class="table table-bordered">
                     <tbody>
                       <tr>
@@ -131,7 +158,7 @@ include ("includes/pageheader.php");
                      </table>
                          <br><br>
 <hr>
-                         <!-- NEXT -->
+                         <!NEXT
                   <table class="table table-bordered">
                     <tbody>
                       <tr>
@@ -154,16 +181,13 @@ include ("includes/pageheader.php");
 
       </div>
       </div> 
-      </tbody>
-
+      </tbody> 
+-->
 
 <?php 
 include ('includes/footer.php');
  ?>
 
-
-
-</div>
 </body>
 
 </html>

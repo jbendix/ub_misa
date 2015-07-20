@@ -46,7 +46,7 @@ height: 300px !important;
 
 .carousel{
 margin-top: 20px;
-width: 52%;
+width: 80%;
 
 }
 
@@ -55,7 +55,7 @@ width: 52%;
 .responsive-iframe-container {
 position: relative;
 padding-bottom: 56.25%;
-padding-top: 0px;
+padding-top: 30px;
 height: 0;
 overflow: hidden;
 }
@@ -70,13 +70,19 @@ width: 100% !important;
 height: 100% !important;
 }
 
-/* img {
-  filter: gray;
-  /*-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ 
+img {
+  filter: gray; /* IE6-9 */
+  /*-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
 box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
 margin-bottom:20px;
+}
+
+/* img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ 
+ 
 } */
 
 
@@ -89,33 +95,7 @@ body {
 	margin-bottom: 0px;
 }
 
-.navbar .navbar-nav > li > a:hover {
-  font-size: 105% !important;
-}
 
-.page-header {
-	box-shadow: none !important;	
-	margin-bottom: 0px;
-}
 
-.icon-cog {
-    color: #428bca;
-}
-
-.icon-cog:hover {
-	color: #fff;
-}
-
-* {
-	border-radius: 0 !important;
-}
-
-#linknocolor {
-	color: black !important;
-}
-
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
-}
 
 
