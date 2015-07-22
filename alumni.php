@@ -19,8 +19,9 @@ include ("includes/pageheader.php");
 
 <h2 class="text-center">Alumni</h2>
 <hr>
+<em>coming soon</em>
 
-
+<!--
 <div class="container">
 <img class="img-responsive pull-left" src="Pictures/janice.jpg" height="250" width="250">
 <p class="lead">Senior Consultant</p>
@@ -35,7 +36,7 @@ include ("includes/pageheader.php");
 <p class="lead">USEReady</p>
 <br><p>Multifaceted MBA with a Bachelor’s degree in Computer Science Engineering. 5.5 years of progressive analytical experience at top tier firms and across multiple industries . Extensive knowledge and understanding of Enterprise Software Industry, specifically data storage and protection. Experienced project leader with expertise in Product Management, Product Development,Web Analytics, Data Modeling and Reporting. Proficient in conceptualizing and assessing company’s information needs based on customer and industry trends and client feedback. Skilled in establishing strategies, plans and processes as well as benchmarking measurement of marketing, operational and financial goals.Proven ability to collaborate with C-Level executives.Strong quantitative and technical skills. Excellent communication and leadership skills.</p>
 </div>
-<hr>
+<hr>-->
 
 
 </div> <!-- END Container -->

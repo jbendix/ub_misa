@@ -19,14 +19,17 @@ include ("includes/pageheader.php");
 
 <div class="container">
 <div class="row">
-  <div class="col-md-offset-3 col-md-6">
+
+<img class="img-responsive center-block" src="Pictures/banner.png" height="125%;" width="125%;">
+
+ <div class="col-md-offset-3 col-md-6">
   <h4>What is MIS?</h4>
   <p>- Identifying the information that is needed for effective decision making in organizations</p>
   <p>- Developing information systems to satisfy those needs</p>
   <p class="lead"><em>Using technology to create business value</em></p>
   </div>
 </div>
-<img class="img-responsive center-block" src="Pictures/banner.png">
+
 <hr>
 
 <div class="row">

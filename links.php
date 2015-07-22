@@ -16,61 +16,117 @@
 include ("includes/pageheader.php");
  ?>
 
-<h3 class="text-center"><u><strong>MISA Affiliates</strong></u></h3>
+<h2 class="text-center">MISA Affiliates</h3>
 <hr>
 <!-- Columns -->
 <!-- Left Column -->
 <div class="row">
-  <div class="col-md-4 text-center">
-    <b><a id="linknocolor" href="http://cfcbuffalo.org/#/welcome" target="_blank"><p class="text-center lead">Computers for Children</p></a><br>
-    <img src="pictures/cfc.jpeg">  
-    <p>CFC believes in providing an equal opportunity for all children, helping to level the playing field in information technology. 
-    Sixty percent of America’s jobs require technical skills. The lack of computer access and technology programs in schools has caused 
-    many children to grow up without the necessary interaction with current technologies to succees in this new environment 
-    causing a major disadvantage when entering higher education or employment. Computers For Children aims to eliminate this 
-    career obstacle and limitation facing those children.</p>
+
+  <div class="col-md-2 col-md-offset-2">
+  <table class="table">
+
+  <tr>
+  <td class="linkhover">
+    <a class="linknocolor1" href="http://cfcbuffalo.org/#/welcome" target="_blank">
+    <img class="imagelink" src="pictures/cfc.jpeg">
+    </a>  
+  </td>
+  </tr>
+  
+  
+  <tr>
+  <td class="linkhover">
+  <a class="linknocolor2" href="http://www.infotechniagara.org/" target="_blank">
+    <img class="imagelink" src="pictures/infotech.jpeg" style="width: 155px;height:75px;">  
+  </a>
+  </td>
+  </tr>
+
+
+    <tr>
+    <td class="linkhover">
+    <a class="linknocolor3" href="http://buffalony.iiba.org/" target="_blank">
+    <img class="imagelink" src="pictures/iiba.jpeg" style="width: 160px;height:80px;"></a>  
+    </td>
+    </tr>
+
+  </table>  
   </div>
 
-<!-- Middle Column -->
-  <div class="col-md-4 text-center">
-    <b><a id="linknocolor" href="http://www.infotechniagara.org/" target="_blank"><p class="text-center lead">Infotech Niagara</p></a><br>
-    <img src="pictures/infotech.jpeg" style="width: 50%;height:50%;">  
-    <p>Formed in 1998, infoTech Niagara is a rapidly growing consortium of multi-sized software, hardware, telecommunications companies, 
-    government and economic agencies, and educational institutions. The purpose of the organization is to address various 
-    industry-specific issues such as workforce availability, industry image, technology transfer, networking, access to financing, and 
-    attracting new business to the region. Since infoTech Niagara's formation, workforce development has been a top priority. 
-    Much time and effort has been spent on related initiatives, including the formation of an Education and Workforce subcommittee; 
-    internship and human resources forums; an online job databank; and working with local colleges, universities and school districts 
-    to implement IT curriculums. The coalition's members serve on Buffalo's Information Technology Council, which is creating 
-    "smart building" certification (electronically enhanced buildings with state-of-the-art telecommunications systems and workplace 
-    automation). Others are partnering with the educational community to identity job opportunities to keep the "best and brightest" 
-    in the area. InfoTech Niagara holds regular meetings at which a cross-section of business and technology issues are discussed, 
-    including: technology resources; workforce retention; regional technology infrastructure; governmental policies with regard 
-    to the technology industry; financial resources; funding resources; and private, business and education institutions.</p>
-  </div>
+  <div class="col-md-5 col-md-offset-1">
 
-  <!-- Right Column -->
-  <div class="col-md-4 text-center">
- <b><a id="linknocolor" href="http://buffalony.iiba.org/" target="_blank"><p class="text-center lead">Buffalo IIBA</p></a><br>
-    <img src="pictures/iiba.jpeg" style="width: 50%;height:50%;">  
-    <p>The mission of the Buffalo Chapter of the IIBA is to promote and implement the mission of the worldwide IIBA. We will develop, maintain and share standards for the practice of business analysis and for the certification of its practitioners.
+  <span id="infographic1">
+    <p>MISSION:  Computers For Children enhances educational opportunities and enriches lives through technology.</p>
+    <p>VISION:  Computers For Children is the community’s leading technology resource for high-need populations and those that serve them.</p>
+    <img src="Pictures/cfc.jpeg" height="170px;" width="359px;">
+  </span>
 
-Our objectives are:
-- To learn more about the IIBA professional development and certification programs
-- To raise awareness of the Business Analysis as a distinct specialty
-- To provide a positive and encouraging environment to network with your peers
-- To mentor, publish, and share best practices
-- To continue development and learning with tools of the trade</p>
+  <span id="infographic2">
+    <p>MISSION: To serve as WNY's professional organization promoting technology through networking, education, recognition and career enrichment.</p>
+    <p>VISION: Promote and conduct technology-related networking and educational events
+ Collaborate with regional educational institutions to provide and create learning opportunities
+Recognize and showcase noteworthy technology professionals and organizations for their contributions to the local and global technology community</p>
+<img src="Pictures/infotech.jpeg">
+  </span>
+
+  <span id="infographic3">
+    <p>MISSION: The mission of the Buffalo Chapter of the International Institute of Business Analysis (IIBA) is to further the business analysis profession by providing regular EDUCATIONAL sessions, formal TRAINING and MENTORING, and NETWORKING opportunities!</p>
+    <img src="Pictures/iiba.png" height="60%;" width="60%;">
+  </span>
 
   </div>
-</div>
-<!-- Columns -->
+
+
+</div> <!-- End Row -->
+
 
 <?php 
 include ('includes/footer.php');
  ?>
 
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    $("#infographic1").hide();
+    $("#infographic2").hide();
+    $("#infographic3").hide();
+
+    $(".linknocolor1").mouseenter(function(){
+        $("#infographic1").show();
+        $("#infographic2").hide();
+        $("#infographic3").hide();
+    });
+    $(".linknocolor2").mouseenter(function(){
+        $("#infographic2").show();
+        $("#infographic1").hide();
+        $("#infographic3").hide();
+    });
+    $(".linknocolor3").mouseenter(function(){
+        $("#infographic3").show();
+        $("#infographic2").hide();
+        $("#infographic1").hide();
+    });
+
+
+
+    /*$(".linknocolor1").mouseleave(function(){
+        $("#infographic1").hide();
+    });
+
+    $(".linknocolor2").mouseleave(function(){
+        $("#infographic2").hide();
+    });
+
+    $(".linknocolor3").mouseleave(function(){
+        $("#infographic3").hide();
+    });*/
+
+
+});
+
+</script>
 </body>
 
 </html>

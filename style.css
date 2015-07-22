@@ -110,7 +110,7 @@ body {
 	border-radius: 0 !important;
 }
 
-#linknocolor {
+.linknocolor {
 	color: black !important;
 }
 
@@ -118,4 +118,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
 
+
+.imagelink:hover {
+	outline: solid;
+}
 

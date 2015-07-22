@@ -29,14 +29,14 @@ include ("includes/pageheader.php");
 <hr>
 
 <div class="container">
-<img class="img-responsive pull-left" src="Pictures/alyssa.jpg" height="250" width="250">
+<img class="img-responsive pull-left" src="Pictures/alyssa.jpeg" height="250" width="250">
 <p class="lead">Vice President Administration</p>
 <p>BS Business - Concentraion MIS</p>
 </div>
 <hr>
 
 <div class="container">
-<img class="img-responsive pull-left" src="Pictures/Christina.jpg" height="250" width="250">
+<img class="img-responsive pull-left" src="Pictures/Christina.jpeg" height="250" width="250">
 <p class="lead">Vice President Marketing</p>
 <p>BS Business - Concentraion Marketing</p>
 </div>
