@@ -23,7 +23,15 @@ include ("includes/pageheader.php");
 <div class="container">
 <img class="img-responsive pull-left" src="Pictures/jordanpic.jpg" height="250" width="250">
 <p class="lead">President</p>
-<p>MS MIS</p>
+<p>Jordan Bendix</p>
+</div>
+
+<hr>
+
+<div class="container">
+<img class="img-responsive pull-left" src="Pictures/Tyler-WaltersHeadshot.jpg" height="250" width="250">
+<p class="lead">Vice President</p>
+<p>Tyler Walters</p>
 </div>
 
 <hr>
@@ -31,14 +39,14 @@ include ("includes/pageheader.php");
 <div class="container">
 <img class="img-responsive pull-left" src="Pictures/alyssa.jpeg" height="250" width="250">
 <p class="lead">Vice President Administration</p>
-<p>BS Business - Concentraion MIS</p>
+<p>Alyssa Pino</p>
 </div>
 <hr>
 
 <div class="container">
 <img class="img-responsive pull-left" src="Pictures/Christina.jpeg" height="250" width="250">
 <p class="lead">Vice President Marketing</p>
-<p>BS Business - Concentraion Marketing</p>
+<p>Christina Hrynyk</p>
 </div>
 <hr>
 

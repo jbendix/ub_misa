@@ -45,6 +45,7 @@ include ("includes/pageheader.php");
         <p><em>Connecting Business and Technology</em></p>
       </div>
     </div>
+    
 
 <!-- 
   <div class="row">
@@ -56,21 +57,23 @@ include ("includes/pageheader.php");
 
     <!-- Page Content -->
     <div class="container">
+    <hr>
+    <br>
         <!-- First Featurette -->
         <div class="featurette" id="about">
             <img class="featurette-image img-circle img-responsive pull-right" src="Pictures/CFC3.jpg">
-            <h2 class="featurette-heading">Computer Hardware
+            <h2 class="featurette-heading">Professional Development
                 <span class="text-muted">Take your education to the next level</span>
             </h2>
-            <p class="lead">Learn important hands-on hardware skills</p>
         </div>
 
         <hr class="featurette-divider">
 
+
         <!-- Second Featurette -->
         <div class="featurette" id="services">
             <img class="featurette-image img-circle img-responsive pull-left" src="Pictures/lesson1.jpg" height="70%" width="70%">
-            <h2 class="featurette-heading">Software
+            <h2 class="featurette-heading">Programming Workshops
                 <span class="text-muted">Make your idea a reality</span>
             </h2>
             <p class="lead">Learn the latest techniques for building web applications. These simple methods can bring your idea to life.</p>

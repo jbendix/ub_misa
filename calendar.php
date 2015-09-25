@@ -25,62 +25,77 @@ include ("includes/pageheader.php");
 			<div class="col-md-offset-3 col-md-6">
 		
 				<p>Meetings Every Friday</p>
-				<p>Where: Alfiero 103 </p>
-				<p>When: 4:00 PM</p>
+				<p>Where: Alfiero 122 </p>
+				<p>When: 3:00 PM</p>
 				
 
 				<table class="table table-striped">
 				<tr>
-					<td><p>Reema Bhatt, IT Risk + Assurance, EY</p></td>
-					<td><p>February 13th</p></td>
-					<td></td>
+					<td><p>Kick-Off Meeting</p></td>
+					<td><p>September 18th</p></td>
+					<td>
+					
+					</td>
 				</tr>
 				
+				<tr>
+					<td><p>Brick House</p></td>
+					<td><p>September 25th</p></td>
+					<td></td>
+				</tr>
+
 				<tr>
 					<td><p>Web Development Workshop</p></td>
-					<td><p>March 6th</p></td>
+					<td><p>October 2nd</p></td>
+					<td>
+						<form class="form-horizontal" method="get" action="rsvp.php" enctype="text/plain">		    
+		    		<div class="form-group">
+		        		<input id="studentname"  name="studentname" type="text" placeholder="Your Full Name" class="form-control" />
+		    		</div>
+		    		<div class="form-group">
+		       			 <input  name="ubemail" type="text" placeholder="UB Email" class="form-control" />
+		   			 </div>
+		    			<div class="form-group">
+		    				<button type="submit" class="btn btn-sm">RSVP</button>
+		    			</div>	         
+	  				</form>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><p>Lasertron</p></td>
+					<td><p>October 7th</p></td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td><p>Ryan Osborne, Director, Deloitte</p></td>
+					<td><p>October 16th</p></td>
 					<td></td>
 				</tr>
 
 				<tr>
-					<td><p>Ruth Huoh, Business &amp Planning Analyst, M&amp;T</p></td>
-					<td><p>March 27th</p></td>
+					<td><p>Mark Kumro, VP M&amp;T, Resume Workshop</p></td>
+					<td><p>October 23rd</p></td>
 					<td></td>
 				
 				</tr>
 
 				<tr>
-					<td><p>Chris Hart-Nova, EscapeWire Solutions</p></td>
-					<td><p>April 10th</p></td>
+					<td><p>Brick House</p></td>
+					<td><p>October 30th</p></td>
 					<td></td>
 				</tr>
 
 				<tr>
-					<td><p>Lasertron</p></td>
-					<td><p>April 15th, 7PM</p></td>
+					<td><p>GE Information Technology Leadership Program</p></td>
+					<td><p>November 6th</p></td>
 					<td>
 
 					</td>
 				</tr>
 
-				<tr>
-					<td><p>Web Development Workshop: Bootstrap</p></td>
-					<td><p>April 17th</p></td>
-					<td>
-					 <form class="form-horizontal" method="get" action="rsvp.php" enctype="text/plain">		    
-		    <div class="form-group">
-		        <input id="studentname"  name="studentname" type="text" placeholder="Your Full Name" class="form-control" />
-		    </div>
-		    <div class="form-group">
-		        <input  name="ubemail" type="text" placeholder="UB Email" class="form-control" />
-		    </div>
-		    <div class="form-group">
-		    <button type="submit" class="btn btn-sm">RSVP</button>
-		    </div>	         
-	  </form>
-					</td>
-					</tr>
-				</tr>
+
 				</table>
 
 
